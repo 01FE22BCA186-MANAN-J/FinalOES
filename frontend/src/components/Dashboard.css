@@ -1,0 +1,89 @@
+/* Reset default browser styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  background-color: #d3d3d3;
+}
+
+/* Global styles */
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1000px; /* Adjust max-width to match dashboard container */
+}
+
+header {
+  background-color: #333;
+  color: #333;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  min-width: 250px;
+}
+
+.p1 {
+  color: #333;
+}
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  padding-top: 50px; /* Adjust this value to position the nav menu items */
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Search bar styles */
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.search-container input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
